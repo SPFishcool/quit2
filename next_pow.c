@@ -16,7 +16,6 @@ int main(int argc, char *argv[]){
     char *cvalue = argv[1];
     while(*cvalue){
         if (!isdigit(*cvalue)){
-            printf("flag");
             printf("%s is not an integer.\n", argv[1]);
             return 0;
         }
